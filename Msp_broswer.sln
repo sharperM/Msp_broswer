@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Msp_broswer", "Msp_broswer\Msp_broswer.vcxproj", "{16BB8966-F546-41CB-AE9B-6027CD201286}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iebrower", "iebrower\iebrower.vcxproj", "{4E285640-D5FE-40CA-B412-4F69054478CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +15,10 @@ Global
 		{16BB8966-F546-41CB-AE9B-6027CD201286}.Debug|Win32.Build.0 = Debug|Win32
 		{16BB8966-F546-41CB-AE9B-6027CD201286}.Release|Win32.ActiveCfg = Release|Win32
 		{16BB8966-F546-41CB-AE9B-6027CD201286}.Release|Win32.Build.0 = Release|Win32
+		{4E285640-D5FE-40CA-B412-4F69054478CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4E285640-D5FE-40CA-B412-4F69054478CC}.Debug|Win32.Build.0 = Debug|Win32
+		{4E285640-D5FE-40CA-B412-4F69054478CC}.Release|Win32.ActiveCfg = Release|Win32
+		{4E285640-D5FE-40CA-B412-4F69054478CC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

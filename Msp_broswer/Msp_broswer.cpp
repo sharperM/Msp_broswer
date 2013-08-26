@@ -5,6 +5,7 @@
 #include "Msp_broswer.h"
 #include <MSHTML.h>
 #include "Exdisp.h"
+/*#include <afxwin.h>*/
 #define MAX_LOADSTRING 100
 
 // 全局变量:
@@ -118,6 +119,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 
    ShowWindow(hWnd, nCmdShow);
    UpdateWindow(hWnd);
+//    CDialog myDialog(5011);
 
    return TRUE;
 }
@@ -161,7 +163,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 					VARIANT vEmpty;
 					VariantInit(&vEmpty);
 
-					BSTR bstrURL = SysAllocString(L"http://microsoft.com");
+					BSTR bstrURL = SysAllocString(_T("http://www.google.com"));
 
 					HRESULT hr = pBrowser2->Navigate(bstrURL, &vEmpty, &vEmpty, &vEmpty, &vEmpty);
 					if (SUCCEEDED(hr))
